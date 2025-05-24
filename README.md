@@ -14,60 +14,17 @@ Welcome to the DOHN Cleaning Service System — a console-based Java application
 
 🧾 Auto-generate a receipt and save it to a file (receipt.text)
 
-📁 Project Structure
-bash
-Copy
-Edit
-project/
-│
-├── CleaningSystem.java       # Main class handling user flow and receipt
-├── Price.java                # Service option selection and price calculation
-├── Schedule.java             # Weekly cleaner availability matrix
-└── receipt.text              # File where customer receipts are saved
-▶️ How to Run
-Clone the repository
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/cleaning-system.git
-cd cleaning-system
-Compile the code
+This is a Java console application that simulates a booking system for a residential cleaning service. Users can:
 
-bash
-Copy
-Edit
-javac project/*.java
-Run the program
+📅 View cleaner availability based on a weekly schedule
 
-bash
-Copy
-Edit
-java project.CleaningSystem
-🧮 Pricing Logic
-Type	Category	Base Price (RM)
-Set	Individual	150
-Set	Pair	250
-Set	Group	375
-Full	Individual	200
-Full	Pair	300
-Full	Group	450
+🛠️ Choose service options such as type (set/full), team size (individual/pair/group), and duration (daily/weekly/monthly)
 
-Daily: Price × 20
+🧍‍♂️ Input personal details like name, phone number, and address
 
-Weekly: Price × 4
+💰 Automatically calculate the total service price based on user selections
 
-Monthly: Base price
+🧾 Generate and save a service receipt in a text file (receipt.text)
 
-📌 Sample Output
-text
-Copy
-Edit
-╔------------------------------------╗
-| WELCOME TO DOHN CLEANING SERVICES |
-╚------------------------------------╝
-...
-Saved as receipt.text
-THANK YOU FOR CHOOSING DOHN CLEANING SERVICES :)
-📃 License
-This project is for academic and demonstration purposes. You can freely use and modify it for learning.
+The project demonstrates basic object-oriented programming (OOP), user input validation, 2D array handling, and file I/O operations in Java. It's perfect for beginners learning how to build structured console applications.
